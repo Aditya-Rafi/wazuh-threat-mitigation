@@ -88,3 +88,7 @@ Wazuh 4.14.5 (manager, indexer, dashboard) · Suricata 7 · Python · Docker Com
 - Filtering and classifying IDS events before they reach the SIEM greatly reduces noise.
 - Active response should only fire on high-confidence rules, with a timeout, to avoid blocking legitimate users.
 - A regression script turns a fragile security lab into something that can be changed safely.
+
+## License
+
+Built on top of [wazuh/wazuh-docker](https://github.com/wazuh/wazuh-docker) (Copyright © Wazuh, Inc.), which is licensed under the GNU General Public License v2. This project is distributed under the same license — see [LICENSE](LICENSE). The upstream commit history is kept intact for attribution.
